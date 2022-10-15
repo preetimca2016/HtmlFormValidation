@@ -13,5 +13,4 @@ text.addEventListener('input',function()
        
     });
 
-
    
