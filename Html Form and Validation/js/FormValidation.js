@@ -12,5 +12,11 @@ text.addEventListener('input',function()
         error.textContent="Name INVALID";
        
     });
+    var salaryInput = document.querySelector('#salary');
+    var output = document.querySelector('.salary-error')
+    output.textContent = salaryInput.value;
+    salaryInput.addEventListener('input', function(){
+        output.textContent = salaryInput.value;
+    });
 
    
