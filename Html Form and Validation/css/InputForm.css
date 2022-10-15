@@ -1,0 +1,45 @@
+
+body{
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+}
+.header-container{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: tomato;
+    font-size: 20px;
+    align-content: center;
+}
+form{
+    background-color: aqua;
+    padding: 10px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+label{
+    font: 16px;
+    line-height: 1.5;
+}
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+input{
+    flex: auto;
+}
+button{
+    width: 20%;
+    margin: 0 auto;
+}
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/InputForm.css">
+    
+</head>
+<body>
+    <header class = "header-container">
+        <h1>Html5 input Form Element</h1>
+    </header>
+    <form onsubmit="">
+        
+        <div>
+            <label for="name">TextBox for Name</label>
+            <input id="name" type="text">
+            <span class="error"></span>
+        </div>
+        <div>
+            <label for="pwd">TextBox for Password</label>
+            <input id="pwd" type="Password">
+        </div>
+        <div>
+            <label for="email">TextBox for Email</label>
+            <input id="email" type="Email">
+        </div>
+        <div>
+            <label for="url">TextBox for URL</label>
+            <input id="url" type="url">
+        </div>
+        <div>
+            <label for="number">TextBox for Number</label>
+            <input id="number" type="number">
+        </div>
+        <div>
+            <label for="tel">TextBox for Telephone</label>
+            <input id="tel" type="tel">
+        </div>
+        <div>
+            <label for="gsearch">TextBox for Search</label>
+            <input id="gsearch" type="Search">
+        </div>
+        <div>
+            <label for="date">TextBox for DateTime</label>
+            <input id="date" type="datetime-local">
+        </div>
+        <div>
+            <label for="salary">Choose Salary Input</label>
+            <input id="salary" type="range" min="30000" max="60000" step="100" value="32000">
+            <salary-output class="salary-error">50000</salary-output>
+        </div>
+        <div>            
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>
